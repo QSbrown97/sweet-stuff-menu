@@ -1,0 +1,61 @@
+body {
+background-image: url(images/sweetStuff.jpg);
+background-repeat: no-repeat;
+background-size: 2000px;
+background-position: top;
+color: rgba(240, 248, 255, 0.925);
+}
+
+h1 {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.description {
+  margin: -40px 0px 0px 0px;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+h3 {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 23px
+}
+
+.ice-cream-flavors {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  text-align: right;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.39);
+}
+
+li {
+  list-style: none;
+  padding:5px  21px;
+}
+
+p {
+  text-align: center;
+}
+
+.title-container {
+  width: 70%;
+  background-color: rgba(238, 144, 152, 0.925);
+  margin: 0 auto
+}
+
+footer {
+  color: rgba(238, 144, 152, 0.925);
+}
